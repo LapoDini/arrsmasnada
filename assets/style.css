@@ -20,6 +20,15 @@
     font-family: Matura MT Script Capitals;
     text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
 }
+@media screen and (max-width: 600px) {
+    .header h1{
+        font-size: 20px;
+        color: #F4F7F9;
+        font-family: Matura MT Script Capitals;
+        text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
+    }
+    
+}
 
 /* sfondo e overflow della barra di navigazione*/
 .topnavbar{
