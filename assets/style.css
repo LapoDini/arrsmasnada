@@ -17,14 +17,14 @@
 .header h1{
     font-size: 45px;
     color: #F4F7F9;
-    font-family: "Old English Text MT", Matura MT Script Capitals;
+    font-family: 'MedievalSharp', cursive;;
     text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
 }
 @media screen and (max-width: 600px) {
     .header h1{
         font-size: 20px;
         color: #F4F7F9;
-        font-family: "Old English Text MT", Matura MT Script Capitals;
+        font-family: 'MedievalSharp', cursive;;
         text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
     }
     
