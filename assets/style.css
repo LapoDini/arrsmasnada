@@ -1,3 +1,9 @@
+/* trying to solve the non loading font in android chrome*/
+#fakediv{
+    visibility: hidden;
+    font-family: font-family: 'MedievalSharp', cursive;
+}
+
 .header {
     background-color: #0008BF;
     display: flex;
@@ -17,14 +23,14 @@
 .header h1{
     font-size: 45px;
     color: #F4F7F9;
-    font-family: 'MedievalSharp', cursive;;
+    font-family: 'MedievalSharp', cursive;
     text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
 }
 @media screen and (max-width: 600px) {
     .header h1{
-        font-size: 20px;
+        font-size: 30px;
         color: #F4F7F9;
-        font-family: 'MedievalSharp', cursive;;
+        font-family: 'MedievalSharp', cursive;
         text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
     }
     
