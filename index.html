@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- TODO responsive site-->
     <title>Masnada Buondelmonti</title>
-    <link rel="stylesheet" type="text/css" href="assets\style.css"
+    <link rel="stylesheet" type="text/css" href="assets\style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="assets\functions.js"></script>
 </head>
 <body>
     <!--TODO trovare un titolo appropriato-->
@@ -13,14 +15,17 @@
         <div class="header">
             <h1>ARRS Masnada Buondelmonti</h1>
         </div>
-        <div class="topnavbar">
+        <nav class="topnavbar" id="myTopnavbar">
             <!-- TODO sistemare i link-->
-            <a href="Home">Home</a>
-            <a href="Home">Chi Siamo</a>
-            <a href="Home">Eventi</a>
-            <a href="Home">Foto</a>
-         <a href="Home">Contatti</a>
-        </div>
+            <a href="#">Home</a>
+            <a href="#">Chi Siamo</a>
+            <a href="#">Eventi</a>
+            <a href="#">Foto</a>
+            <a href="#">Contatti</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
     </div>
   
     <div class="flex-container">
