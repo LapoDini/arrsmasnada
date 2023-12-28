@@ -17,19 +17,19 @@
 .header h1{
     font-size: 45px;
     color: #F4F7F9;
-    font-family: Matura MT Script Capitals;
+    font-family: "Old English Text MT", Matura MT Script Capitals;
     text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
 }
 @media screen and (max-width: 600px) {
     .header h1{
         font-size: 20px;
         color: #F4F7F9;
-        font-family: Matura MT Script Capitals;
+        font-family: "Old English Text MT", Matura MT Script Capitals;
         text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
     }
     
 }
-
+/* Navigation bar*/
 /* sfondo e overflow della barra di navigazione*/
 .topnavbar{
     width: 94%;
@@ -57,6 +57,10 @@
 /*hide hamburger icon when the screen is large enough */
 .topnavbar .icon{  
     display: none;
+}
+.topnavbar a.active{
+    background-color: #b2c3e2;
+    color: black;
 }
 @media screen and (max-width: 600px){
     .topnavbar a:not(:first-child){display: none;}
