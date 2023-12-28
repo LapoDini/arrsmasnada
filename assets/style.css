@@ -1,9 +1,12 @@
 /* trying to solve the non loading font in android chrome*/
+/* chrome for android doesn't download the font if there is a hidden div */
+/* the solution is to force the download with an invisible div */ 
+/* this seems to work */
 #fakediv{
     visibility: hidden;
     font-family: font-family: 'MedievalSharp', cursive;
 }
-
+/*header*/
 .header {
     background-color: #0008BF;
     display: flex;
@@ -32,6 +35,7 @@
         color: #F4F7F9;
         font-family: 'MedievalSharp', cursive;
         text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
+        text-align: center;
     }
     
 }
@@ -60,7 +64,7 @@
     background-color: #ddd;
     color: black;
 }
-/*hide hamburger icon when the screen is large enough */
+/* hide hamburger icon when the screen is large enough */
 .topnavbar .icon{  
     display: none;
 }
@@ -88,7 +92,7 @@
         text-align: left;
     }
 }
-
+/* big image*/
 #main_img{
     margin-top: 25px;
     width: 95%;
@@ -97,6 +101,7 @@
     flex-shrink: 3;
 }
 
+/* paragraph style */
 p{
     font-family: Arial, sans-serif;
     font-size: 20px;
@@ -104,6 +109,7 @@ p{
     text-align: center;
 }
 
+/* general flex container */
 .flex-container{
     display: flex;
     flex-direction: column;
@@ -111,6 +117,8 @@ p{
     align-items: center;
 }
 
+/* buttons in the homepage */
+/* TODO needs an image and a better look */
 .link-button{
     background-color: #9D9898;
     border: 3px solid black;
