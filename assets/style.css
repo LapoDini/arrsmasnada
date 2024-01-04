@@ -22,7 +22,7 @@
     font-size: 14px;
     color: #f2f2f2;
 }
-/* TODO add breakpoint and responsive fonts*/
+/* breakpoint and responsive fonts*/
 .header h1{
     font-size: 45px;
     color: #F4F7F9;
@@ -35,7 +35,7 @@
         color: #F4F7F9;
         font-family: 'MedievalSharp', cursive;
         text-shadow: 9px 9px 6px rgba(0, 0, 0, 0.70);
-        text-align: center;
+        text
     }
     
 }
